@@ -15,6 +15,8 @@
 		3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A21BE9B717009F39C5 /* Utils.swift */; };
 		3A1683A71BE9C593009F39C5 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */; };
 		3A1683A91BE9C5A7009F39C5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A81BE9C5A7009F39C5 /* Photo.swift */; };
+		AB4F45511BF84246006F3A66 /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4F45501BF84246006F3A66 /* empty.png */; };
+		AB4F45531BF84293006F3A66 /* filled.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4F45521BF84293006F3A66 /* filled.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		3A1683A21BE9B717009F39C5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramAPI.swift; sourceTree = "<group>"; };
 		3A1683A81BE9C5A7009F39C5 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		AB4F45501BF84246006F3A66 /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
+		AB4F45521BF84293006F3A66 /* filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filled.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 		3A1683831BE9B641009F39C5 = {
 			isa = PBXGroup;
 			children = (
+				AB4F45501BF84246006F3A66 /* empty.png */,
 				3A16838E1BE9B641009F39C5 /* Photos */,
 				3A16838D1BE9B641009F39C5 /* Products */,
 			);
@@ -65,6 +70,7 @@
 				3A1683A11BE9B70C009F39C5 /* Utils */,
 				3A16838F1BE9B642009F39C5 /* AppDelegate.swift */,
 				3A1683931BE9B642009F39C5 /* Main.storyboard */,
+				AB4F45521BF84293006F3A66 /* filled.png */,
 				3A1683961BE9B642009F39C5 /* Assets.xcassets */,
 				3A1683981BE9B642009F39C5 /* LaunchScreen.storyboard */,
 				3A16839B1BE9B642009F39C5 /* Info.plist */,
@@ -157,7 +163,9 @@
 			files = (
 				3A16839A1BE9B642009F39C5 /* LaunchScreen.storyboard in Resources */,
 				3A1683971BE9B642009F39C5 /* Assets.xcassets in Resources */,
+				AB4F45531BF84293006F3A66 /* filled.png in Resources */,
 				3A1683951BE9B642009F39C5 /* Main.storyboard in Resources */,
+				AB4F45511BF84246006F3A66 /* empty.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
